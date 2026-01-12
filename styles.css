@@ -25,6 +25,8 @@ body{
     width: 350px;
     padding-top: 25px;
     padding-bottom: 10px;
+    display: relative;
+    margin-bottom: 350px;
 
 }
 .address{
