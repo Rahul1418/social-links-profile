@@ -1,0 +1,53 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.avatar{
+    width:70px;
+    border-radius: 50%;
+
+}
+body{
+    text-align: center;
+    margin-top: 200px;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+.card{
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+.address{
+    color: hsl(75, 94%, 57%); 
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.soc{
+    padding: 12px 0;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    width: 250px;
+    font-weight: 500;
+    align-items: center;
+    display: relative;
+    margin-left: 50px;
+    
+}
+.container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
